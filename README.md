@@ -7,7 +7,7 @@ Swordbattle.io is a multiplayer game where you PvP with 2D swords, and try to ga
 [Leaderboard](https://www.swordbattle.io/leaderboard)
 <br>
 [Discord](https://discord.com/invite/BDG8AfkysZ)
-
+[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/Rahib777-7/swordbattle.io)
 ## Contributing
 
 I'm working on a detailed guide so you can help out with the code! Stay tuned.
