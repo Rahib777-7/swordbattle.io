@@ -115,7 +115,7 @@ if (production) {
 	const limiter = rateLimit({
 		windowMs: 60 * 1000, // 1 min
 		max: 300, // limit each IP to 52 requests per min 
-		message: "Too many requests from this IP, please try again" //Add message when rate-limit
+		message: "Too many requests from this IP Address, please try again" //Add message when rate-limit
 	});
 	app.use(limiter);
 }
@@ -175,7 +175,7 @@ app.all("*", (req, res, next) => {
   console.log("IP", ip);
   // if ip is in ban list, send 403
   if (moderation.bannedIps.includes(ip)) {
-    res.status(403).send("You are banned, contact gautam@swordbattle.io for appeal<br>Have a terrible day :)");
+    res.status(403).send("You are sadly banned, contact gautam@swordbattle.io for appeal<br>Have a great day :)");
     return;
   } else next();
 } catch (e) {
